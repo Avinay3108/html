@@ -1,0 +1,507 @@
+
+span{
+    font-weight: 900;
+    font-family: ZillaSlab-BoldItalic;
+}
+
+
+.navbar{
+    background: #000;
+}
+ .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+ }
+ a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 6.5rem;
+    padding-left: -4.5rem;
+}
+
+nav ul li a:hover {
+    color: yellow;
+  }
+  /* Heading */
+  .heading {
+    background: #000;
+    width: 100%;
+    padding: 55px
+}
+.heading h2{
+
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Urbanist';
+    font-weight: 400;
+    max-width: 550px;
+    margin-bottom: 16px;
+    margin-top: 100px;
+}
+.heading p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 640px;
+}
+.btn_first{
+    padding: 16px 32px;
+    color: #000 !important;
+    background: #E5EE52;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:SuisseIntl-Regular;
+    margin-right: 15px;
+    display: inline-block;
+}
+.btn_second{
+    background: #2B2B2B;
+    border-color: #fff;
+    color: #fff !important;
+    margin-left: 15px;
+    border-radius: 15px;
+    padding: 16px 32px;
+}
+
+@media(max-width:493px){
+.heading .col-md-8{
+    padding: 0;
+}
+.heading{
+    padding: 0 15px;
+}
+}
+@media(max-width:400px){
+    .btn_first, .btn_second {
+        padding: 10px 15px;
+    }
+    .btn_first {
+        margin-right: 0px;
+    }
+
+}
+@media(max-width:1200px){
+    .heading h2{
+        font-size: 46px;
+    }
+    .heading p{
+        font-size: 18px;
+    }
+}
+@media(max-width:767px){
+    .heading h2{
+        font-size: 40px;
+    }
+    .heading .row {
+        flex-direction: column-reverse;
+    }
+    .heading-img {
+        margin-top: 37px;
+        max-width: 100%;
+        margin-bottom: 30px;
+        width: 300px;
+        text-align: center;
+    }
+    }
+
+@media(max-width:480px){
+    .heading h2{
+        font-size: 32px;
+    }
+}
+
+    
+
+
+/* Testen */
+.testen h2{
+    color: #2B2B2B;
+    max-width: unset;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 47px;
+    padding-top: 110px;
+
+    font-size: 50px;
+}
+.testen p{
+    max-width: 600px;
+    color: #2B2B2B;
+    font-size: 17px;
+    font-weight: 400;
+}
+.testen img{
+    margin-top: 60px;
+    padding: 30px;
+
+}
+.testen {
+    background: #F7F8FA;
+}
+@media(max-width:1200){
+    h2.home_banner_text{
+        font-size: 45px;
+    }
+}
+@media(max-width:767px){
+    h2.home_banner_text {
+        font-size: 36px;
+    }
+}
+/* traffic section */
+.traffic {background: #F7F8FA;
+    padding: 102px 0 100px;
+
+}
+.traffic-section {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 49px;
+}
+.traffic-section h2{
+    font-size: 52px;
+    color: #282828;
+    font-family: 'Urbanist';
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.traffic-section p{
+    color: #282828;
+    font-size: 20px;
+    font-family: SuisseIntl-Regular;
+}
+.card-sec {
+    height: 100%;
+    text-align: center;
+    max-width: 320px;
+    background: #fff;
+    padding: 30px 35px 25px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.card-sec h2{
+    color: #282828;
+    font-size: 24px;
+    font-family: 'Urbanist', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.card-sec p{
+    font-size: 15px;
+    color: #989898;
+    line-height: 20px;
+}
+@media(max-width:767px){
+    .card {
+        margin-bottom: 20px !important;
+    }
+}
+@media(max-width:767px){
+    .col-md-4 {
+        margin-top: 30px;
+    }
+    .card-sec p{
+        font-size: 15px;
+    }
+}
+@media(max-width:1200px){
+    .traffic-section h2{
+        font-size: 45px;
+    }
+    .card-sec h2{
+        font-size: 20px;
+    }
+}
+@media(max-width:767px){
+    .traffic-section h2{
+        font-size: 38px;
+    }
+}
+
+/* Werk Section */
+.werk {
+    padding: 120px 0 150px;
+    background: #000;
+    border-radius: 20px;
+}
+
+.werk-sec h2 {
+    color: #fff;
+    font-size: 56px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: urbanist;
+}
+
+.card {
+    max-width: 500px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 17px 17px 30px;
+}
+.card h2{
+    font-size: 32px;
+    color: #2A2A2A;
+    font-family: ZillaSlab-BoldItalic;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.cst_btns button{
+    transition: .3s;
+    font-size: 18px;
+    color: #000000;
+    padding: 0px 12px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    background: transparent;
+    font-family: urbanist;
+}
+.werk a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+ 
+/* Droom section */
+.stap-heading {
+    font-size: 18px;
+    background: #E5EE52;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.stap-heading h2 {
+    font-size: 56px;
+    color: #000000;
+    font-family: 'Urbanist';
+    max-width: 900px;
+    font-weight: 400;
+}
+.droom {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background: #F7F8FA;
+}
+.droom-card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 20px;
+    margin: 0px 0 90px;
+    max-width: 450px;
+}
+.droom-card h2{
+    font-size: 26px;
+    color: #000000;
+    font-family: ZillaSlab-BoldItalic;
+}
+.droom-card p{
+    font-family: SuisseIntl-Regular;
+    margin-top: 0;
+}
+
+.cst_stap_bar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.cst_stap_bar:after {
+    position: absolute;
+    border-left: 2px dashed #8F55FF;
+    content: '';
+    height: 100%;
+    width: 1px;
+    top: 0;
+    left: 50%;
+}
+.cst_stap_bar img {
+    display: block;
+    margin: 45px auto;
+    z-index: 1;
+    width: 80px;
+}
+.droom-right{
+    margin-top: 150px
+}
+.droom-mobile{
+    display: none;
+}
+@media(max-width:1200px){
+    .droom-heading h2{
+        font-size: 45px;
+    }
+}
+@media (max-width: 991px){
+.droom-card p {
+    word-break: break-all;
+}}
+@media(max-width:767px){
+    .droom-mobile{
+        display: block;
+        flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    }
+    .droom-mobile .row{
+        display: flex;
+        flex-wrap: nowrap
+    }
+    .droom-destop {
+        display: none;
+    }
+    .droom-heading h2{
+        font-size: 40px;
+    }
+    .droom-mobile::after{
+        position: absolute;
+        content: '';
+        height: 97%;
+        width: 1px;
+        top: 0;
+        right: 118px;
+        border-left: 2px dashed #F7F8FA;
+        background:
+       linear-gradient(#fff 0 0) padding-box,
+       linear-gradient(to bottom, #FAC575, #FAC575 49% ,#EA7A96 ,#9F6EF4, #ECCA86) border-box
+    }
+    .droom-mobile .droom-card{
+        background: #fff;
+    padding: 9px;
+    border-radius: 18px;
+    margin: 0px 0 90px;
+    max-width: 400px
+    }
+}
+
+/* ONZE SECTION */
+.onze {
+    background-color: #000000F2;
+    color: #fff;
+    padding: 250px 0px 150px;
+    border-radius: 20px;
+ 
+}
+
+.onze1 h2 {
+    max-width: 650px;
+    font-family: 'Urbanist';
+}
+.onze h2{
+    font-size: 60px;
+    margin-bottom: 32px;
+    font-size: 62px;
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+.onze .row{
+    align-items: center;
+}
+.onze p{
+    font-size: 20px;
+    max-width: 500px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.onze1 .col-md-5, .onze2 .col-md-5 {
+    text-align: center;
+}
+
+.onze2{
+        margin-top: 200px;
+    }
+    .onze2 ul{
+        list-style: none;
+
+    line-height: 1.9;
+    }
+.onze2 a{
+    padding: 16px 32px;
+    background: #E5EE52;
+    border-radius: 15px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+    font-family: 'SuisseIntl-Regular';
+}
+.onze2 img{
+    width: 100%;
+max-width: 400px;
+}
+@media (max-width: 1200px){
+.onze h2 {
+    font-size: 45px;
+}
+}
+@media (max-width: 767px){
+.col-md-5  img {
+    margin-top: 50px;
+    width: 350px;
+}
+}
+@media (max-width: 767px){
+.onze2 h2 {
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+}
+
+
+/* FOOTER SECTION */
+.footer-sec {
+    padding: 50px 0;
+}
+
+.footer-sec img {
+    width: 83px;
+}
+
+.menu-footer-menu-container {
+    border-bottom: 2px solid #D9D9D9;
+    padding: 35px 0 50px;
+    margin-bottom: 50px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 50px;
+}
+ul.cst_nav_item_footer a {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Urbanist';
+    text-decoration: none;
+}
+.copy-rights a {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Urbanist';
+    text-decoration: none;
+}
+@media (max-width: 575px){
+.menu-footer-menu-container {
+    padding: 50px 0 0;
+}
+}
+
+@media (max-width:575px){
+    .cst_nav_item_footer li{
+        display: block;
+      ;
+    }
+    ul.cst_nav_item_footer {
+        padding-left: 0;
+    }
+}
